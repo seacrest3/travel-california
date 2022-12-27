@@ -1,0 +1,305 @@
+/* Global styles ============= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+/* a {
+  color: #fdcc52;
+  transition: all .35s;
+} */
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+a:link {
+  color: blue
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+#mainNav {
+  position: absolute;
+  left: 8.85%;
+  right: 10.89%;
+  top: 0.7%;
+  bottom: 97.8%;
+  height: 100px;
+}
+
+#download {
+  background-color: #fdc949;
+  background-size: 100% 100%;
+}
+
+#download p {
+  font-weight: bold;
+}
+
+#signup {
+  background-image: url(../images/SF.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#signup h2 {
+color: white;
+text-align: center;
+justify-content: center;
+margin-left: 480px;
+width: max-content;
+/* width: 100%; */
+/* height: 500px; */
+}
+
+.navbar-nav {
+  position: absolute;
+  left: 70%;
+}
+
+.jumbotron {
+  background-image: url(../images/bg-img.svg);
+  background-size: cover;
+  /* background-origin: border-box; */
+  background-repeat: no-repeat;
+  margin-bottom: 0%;
+}
+
+/* Added CSS Classes */
+
+.nav-item {
+  margin: 0px 15px;
+  color:white !important;
+  font-size: medium;
+}
+
+.deviceImage {
+  position: relative;
+  margin-top: 5%;
+  width: 100%;
+  /* height: 80%; */
+  /* position: absolute;
+  height: 894px;
+  width: 443px;
+  left: 1193px;
+  top: 109px;
+  border-radius: 0px; */
+}
+
+.cardImage {
+  /* width: 100%; */
+  /* margin-left: 70px; */
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonials h2 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.testimonial-item h5 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.testimonial-item p {
+  width: 280px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+}
+
+.card-body {
+  height: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: bold;
+}
+
+.card-body h4{
+  font-weight: bold;
+}
+
+.navbar-brand {
+/* Travel California Logo */
+position: absolute;
+left: 8.85%;
+right: 77.19%;
+top: 0.7%;
+bottom: 97.8%;
+/* color: #FFE000; */
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 100px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+
+/* border: 6px solid #313131; */
+-webkit-text-stroke: 2px #313131;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-heading {
+  font-weight: bold;
+  text-align: center;
+  max-width:80%;
+}
+
+.badges img {
+  width: 40%;
+}
+
+.masthead h1 {
+  color: white;
+  width: 60%
+}
+
+.brand-weight {
+  font-weight: bold;
+}
+
+.contact-section {
+  background-color: black;
+}
+
+.form-group {
+  /* display: flex; */
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: 80px auto;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+}
+
+.form-item {
+  margin: 0px 15px;
+}
+
+.contact-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactImage {
+  margin: 20px 150px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.footer p {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.838);
+  color: rgba(255, 255, 255, 0.208);
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* width: 100%; */
+  margin-left: 500px;
+  margin-top: 90px;
+  padding: auto auto;
+  /* border: 1px solid #F2F2F2; */
+  /* -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0. 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0. 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0. 0, 0, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+  /* background-color: white; */
+}
+
+.btn {
+  border-radius: 20px;
+  object-fit: cover;
+  height: 50px;
+  font-size: small;
+}
+
+.btn-outline-primary {
+  font-size: small;
+  padding-top: 10px;
+  text-decoration: none;
+  height: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  border-color: white;
+  width: 200px;
+}
+
+/* .btn-outline-primary {
+  border-radius: 20px;
+  object-fit: cover;
+} */
